@@ -29,5 +29,6 @@ def main():
             for topic, prob in task["topic_distribution"].items():
                 print(f"    - {topic}: {prob}")
 
+
 if __name__ == "__main__":
     main()
